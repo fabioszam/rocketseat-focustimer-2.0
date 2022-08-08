@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --text-color: #323238;
+}
+
+body {
+  color: var(--text-color);
+
+  font-family: "Roboto", sans-serif;
+
+  display: grid;
+
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  padding: 5rem;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+#countdown {
+  align-self: center;
+  padding-right: 19.2rem;
+}
+
+#timer {
+  font-size: 12rem;
+  display: flex;
+}
+
+#controls {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+}
+
+#sounds {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 3.2rem;
+  grid-template-areas:
+    "item1 item2"
+    "item3 item4";
+}
+
+.icon-color svg path {
+  fill: #e1e1e6;
+}
+
+.icon-color svg path + path {
+  fill: #323238;
+}
+
+.icon-hover:hover .cor1 {
+  fill: #02799d;
+}
+
+.icon-hover:hover .cor2 {
+  fill: white;
+}
+
+@media (max-width: 768px) {
+  main {
+    display: grid;
+  }
+
+  #sounds {
+    margin-top: 4.8rem;
+    display: grid;
+    width: fit-content;
+    gap: 3.2rem;
+  }
+
+  #countdown {
+    padding: 0;
+  }
+}
