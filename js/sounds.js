@@ -4,15 +4,15 @@ export default function () {
   );
 
   const buttonPressRain = new Audio(
-    "https://drive.google.com/uc?id=1Ip8xBqAUJ-bty51Wz8JBtX_bWXCgA0P2&export=download"
+    "https://github.com/fabioszam/MyFiles/blob/master/Chuva.wav?raw=true"
   );
 
   const buttonPressCoffee = new Audio(
-    "https://drive.google.com/uc?id=1OxLKpCwg2wrxXFNUHgZxJ51QEt0ac5RA&export=download"
+    "https://github.com/fabioszam/MyFiles/blob/master/Cafeteria.wav?raw=true"
   );
 
   const buttonPressFireplace = new Audio(
-    "https://drive.google.com/uc?id=1MakaBPxJvTa_whaSM3kEbRcxiVd1GRCB&export=download"
+    "https://github.com/fabioszam/MyFiles/blob/master/Lareira.wav?raw=true"
   );
 
   const endedTimer = new Audio(
