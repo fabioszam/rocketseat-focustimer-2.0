@@ -1,6 +1,6 @@
 export default function () {
   const buttonPressForest = new Audio(
-    "https://drive.google.com/uc?id=1CRHkV72WUMdcqec5GT_KdsqFz0z3VAOA&export=download"
+    "https://github.com/fabioszam/MyFiles/blob/master/Floresta.wav?raw=true"
   );
 
   const buttonPressRain = new Audio(
